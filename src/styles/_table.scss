@@ -1,0 +1,37 @@
+.table {
+  table {
+    width: 700px;
+  }
+
+  th {
+    text-align: center;
+    background-color: rgb(66, 66, 212);
+    color: white;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid rgb(126, 125, 125);
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 10px;
+  }
+
+  .alignright {
+    text-align: right;
+  }
+  .alignleft {
+    text-align: left;
+  }
+  .aligncenter {
+    text-align: center;
+  }
+
+  //   tr:nth-child(even) {
+  //     background-color: #ddd;
+  //   }
+}

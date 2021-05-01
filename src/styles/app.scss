@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button__container {
+  padding: 50px;
+}
+
+.avatar__div {
+  padding: 50px;
+}
+
+.grid {
+  width: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3);
+  padding: 50px;
+}
+
+.btn__container {
+  width: 730px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.counter__container {
+  padding: 50px;
+  width: 730px;
+}
+
+.table__container {
+  padding: 50px;
+}
+
+@import "./button";
+@import "./avatar";
+@import "./counter";
+@import "./table";
