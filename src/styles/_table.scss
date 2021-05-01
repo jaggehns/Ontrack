@@ -1,37 +1,37 @@
-.table {
-  table {
-    width: 700px;
-  }
+.table__container {
+  padding: 50px;
 
-  th {
-    text-align: center;
-    background-color: rgb(66, 66, 212);
-    color: white;
-  }
+  .table {
+    table {
+      width: 700px;
+    }
 
-  table,
-  th,
-  td {
-    border: 1px solid rgb(126, 125, 125);
-    border-collapse: collapse;
-  }
+    th {
+      text-align: center;
+      background-color: rgb(49, 79, 254);
+      color: white;
+    }
 
-  th,
-  td {
-    padding: 10px;
-  }
+    table,
+    th,
+    td {
+      border: 1px solid rgb(126, 125, 125);
+      border-collapse: collapse;
+    }
 
-  .alignright {
-    text-align: right;
-  }
-  .alignleft {
-    text-align: left;
-  }
-  .aligncenter {
-    text-align: center;
-  }
+    th,
+    td {
+      padding: 10px;
+    }
 
-  //   tr:nth-child(even) {
-  //     background-color: #ddd;
-  //   }
+    .alignright {
+      text-align: right;
+    }
+    .alignleft {
+      text-align: left;
+    }
+    .aligncenter {
+      text-align: center;
+    }
+  }
 }

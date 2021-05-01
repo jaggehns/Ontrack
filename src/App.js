@@ -6,31 +6,23 @@ import Button from "./components/Button";
 import Avatar from "./components/Avatar";
 import Counter from "./components/Counter";
 import Table from "./components/Table";
+import Grid from "./components/Grid";
+import CenterButton from "./components/CenterButton";
 
 function App() {
   return (
     <div className="App">
-      <div className="button__container">
-        <Button />
-      </div>
-      <div className="avatar__div">
-        <Avatar />
-      </div>
-      <div className="grid">
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-      </div>
-      <div className="btn__container">
-        <Button />
-      </div>
-      <div className="counter__container">
-        <Counter />
-      </div>
-      <div className="table__container">
-        <Table />
-      </div>
+      <Button />
+
+      <Avatar />
+
+      <Grid />
+
+      <CenterButton />
+
+      <Counter />
+
+      <Table />
     </div>
   );
 }

@@ -1,9 +1,14 @@
-.counter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  h1 {
-    font-size: 80px;
+.counter__container {
+  padding: 50px;
+  width: 730px;
+
+  .counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 80px;
+    }
   }
 }

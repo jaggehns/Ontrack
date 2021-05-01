@@ -1,7 +1,11 @@
 import React from "react";
 
 function Button() {
-  return <button>Sign In</button>;
+  return (
+    <div className="button__container">
+      <button>Sign In</button>
+    </div>
+  );
 }
 
 export default Button;
