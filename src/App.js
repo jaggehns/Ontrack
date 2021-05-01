@@ -13,15 +13,10 @@ function App() {
   return (
     <div className="App">
       <Button />
-
       <Avatar />
-
       <Grid />
-
       <CenterButton />
-
       <Counter />
-
       <Table />
     </div>
   );
